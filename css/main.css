@@ -14,7 +14,7 @@ html {
 
   font-family: "PT Sans", sans-serif;
   color: white;
-  overflow: hidden;
+
 }
 
 *, *::before, *::after {
@@ -28,11 +28,15 @@ html {
 
 .banner {
   position: relative;
+  max-height: 24em ;
+  overflow: hidden;
 }
 
 .banner-content {
   position: absolute;
-  left: 50%;
-  top: 50%;
-  transform: translate(-50%, -50%);
+  left: 0;
+  bottom: 0;
+
+  width: 100%;
+
 }
