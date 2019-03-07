@@ -13,8 +13,8 @@ html {
   text-size-adjust: 100%;
 
   font-family: "PT Sans", sans-serif;
+  color: white;
 }
-
 *, *::before, *::after {
   box-sizing: inherit;
 }
